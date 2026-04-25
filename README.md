@@ -1,55 +1,99 @@
-# Mintlify Starter Kit
+# Clara Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+Official documentation for Clara, powered by [Mintlify](https://mintlify.com).
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## 🌐 Live Site
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+Visit the documentation at [docs.get-clara.tech](https://docs.get-clara.tech)
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+## 📚 Content
 
-## AI-assisted writing
+This repository contains:
+- **User Guide** (46 pages) - Complete guide for Clara users
+- **Developers** (24 pages) - Technical documentation for developers
+- **Clara UI** (25 pages) - UI component library documentation
 
-Set up your AI coding tool to work with Mintlify:
+## 🚀 Local Development
+
+To run the documentation locally:
 
 ```bash
-npx skills add https://mintlify.com/docs
+# From the twenty monorepo root
+npx nx run twenty-docs:dev
 ```
 
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
+The documentation will be available at `http://localhost:3000`
 
-See the [AI tools guides](/ai-tools) for tool-specific setup.
+## 📝 Editing Content
 
-## Development
+### Adding/Editing Pages
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+1. Edit MDX files in the appropriate directory:
+   - `user-guide/` - User documentation
+   - `developers/` - Developer documentation
+   - `twenty-ui/` - Component documentation
 
+2. Update `navigation/base-structure.json` if you need to change the tab/group hierarchy or add/remove pages. This file stays in the repo and is **not** uploaded to Crowdin.
+3. Keep the translation template (`navigation/navigation.template.json`) in sync by running `yarn docs:generate-navigation-template` after editing the base structure. This template is the only file that should be pushed to Crowdin.
+4. For each translated locale pulled from Crowdin, ensure a `packages/twenty-docs/l/<language>/navigation.json` file exists. These files contain **labels only**; page slugs always come from the base structure.
+5. Run `yarn docs:generate` to rebuild `docs.json` from the base structure + translated labels.
+
+### MDX Format
+
+All documentation pages use MDX format with frontmatter:
+
+```mdx
+---
+title: Page Title
+description: Page description
+image: /images/path/to/image.png
+---
+
+Your content here...
 ```
-npm i -g mint
+
+### Adding Images
+
+1. Place images in the `/images/` directory
+2. Reference them in MDX: `![Alt text](/images/your-image.png)`
+3. Or use Mintlify Frame component:
+```mdx
+<Frame>
+  <img src="/images/your-image.png" alt="Description" />
+</Frame>
 ```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+## 🔧 Configuration
 
+- `navigation/base-structure.json` - Source of truth for tabs, groups, icons, and page slugs (English only, not sent to Crowdin).
+- `navigation/navigation.template.json` - Generated translation template (labels only) that is uploaded to Crowdin.
+- `l/<language>/navigation.json` - Locale-specific label files pulled from Crowdin.
+- `docs.json` - Generated Mintlify configuration (always run `yarn docs:generate` after modifying navigation files).
+- `package.json` - Package dependencies and scripts (`docs:generate`, `docs:generate-navigation-template`, …).
+- `project.json` - Nx workspace configuration
+
+## 📦 Building
+
+```bash
+# Build the documentation
+npx nx run twenty-docs:build
 ```
-mint dev
-```
 
-View your local preview at `http://localhost:3000`.
+## 🔗 Links
 
-## Publishing changes
+- [Clara Website](https://get-clara.tech)
+- [GitHub Repository](https://github.com/getclaratech/clara)
+- [Mintlify Documentation](https://mintlify.com/docs)
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+## 🤝 Contributing
 
-## Need help?
+To contribute to the documentation:
 
-### Troubleshooting
+1. Fork the repository
+2. Make your changes in the `packages/twenty-docs` directory
+3. Test locally with `npx nx run twenty-docs:dev`
+4. Submit a pull request
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+## 📄 License
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+This documentation is part of the Clara project and is licensed under [AGPL-3.0](../../LICENSE).

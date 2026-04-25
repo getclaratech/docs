@@ -1,0 +1,172 @@
+{
+  "tabs": {
+    "gettingStarted": {
+      "label": "Başlarken",
+      "groups": {
+        "welcome": {
+          "label": "Welcome"
+        },
+        "coreConcepts": {
+          "label": "Core Concepts"
+        }
+      }
+    },
+    "userGuide": {
+      "label": "Kullanıcı Rehberi",
+      "groups": {
+        "userGuideOverview": {
+          "label": "Genel Bakış"
+        },
+        "dataModel": {
+          "label": "Veri modeli",
+          "groups": {
+            "dataModelReference": {
+              "label": "Reference"
+            },
+            "dataModelHowTos": {
+              "label": "Nasıl Yapılırlar"
+            }
+          }
+        },
+        "dataMigration": {
+          "label": "Veri Geçişi",
+          "groups": {
+            "dataMigrationReference": {
+              "label": "Reference"
+            },
+            "dataMigrationHowTos": {
+              "label": "Nasıl Yapılırlar"
+            }
+          }
+        },
+        "calendarEmails": {
+          "label": "Takvim ve E-postalar",
+          "groups": {
+            "calendarEmailsReference": {
+              "label": "Reference"
+            },
+            "calendarEmailsHowTos": {
+              "label": "Nasıl Yapılırlar"
+            }
+          }
+        },
+        "workflows": {
+          "label": "İş Akışları",
+          "groups": {
+            "workflowsReference": {
+              "label": "Reference"
+            },
+            "workflowsHowTos": {
+              "label": "Nasıl Yapılırlar",
+              "groups": {
+                "crmAutomations": {
+                  "label": "CRM Otomasyonları"
+                },
+                "connectToOtherTools": {
+                  "label": "Diğer Araçlara Bağlan"
+                },
+                "advancedConfigurations": {
+                  "label": "Gelişmiş Yapılandırmalar"
+                },
+                "needMoreHelp": {
+                  "label": "Daha Fazla Yardım mı İhtiyacınız Var"
+                }
+              }
+            }
+          }
+        },
+        "ai": {
+          "label": "AI",
+          "groups": {
+            "aiReference": {
+              "label": "Reference"
+            },
+            "aiHowTos": {
+              "label": "Nasıl Yapılırlar"
+            }
+          }
+        },
+        "layout": {
+          "label": "Düzen",
+          "groups": {
+            "layoutReference": {
+              "label": "Reference",
+              "groups": {
+                "layoutViews": {
+                  "label": "Görünümler"
+                }
+              }
+            },
+            "layoutHowTos": {
+              "label": "Nasıl Yapılırlar"
+            }
+          }
+        },
+        "dashboards": {
+          "label": "Gösterge Panelleri",
+          "groups": {
+            "dashboardsReference": {
+              "label": "Reference"
+            },
+            "dashboardsHowTos": {
+              "label": "Nasıl Yapılırlar"
+            }
+          }
+        },
+        "permissionsAccess": {
+          "label": "İzinler ve Erişim",
+          "groups": {
+            "permissionsAccessReference": {
+              "label": "Reference"
+            },
+            "permissionsAccessHowTos": {
+              "label": "Nasıl Yapılırlar"
+            }
+          }
+        },
+        "billing": {
+          "label": "Faturalandırma",
+          "groups": {
+            "billingReference": {
+              "label": "Reference"
+            },
+            "billingHowTos": {
+              "label": "Nasıl Yapılırlar"
+            }
+          }
+        },
+        "settings": {
+          "label": "Ayarlar",
+          "groups": {
+            "settingsReference": {
+              "label": "Reference"
+            },
+            "settingsHowTos": {
+              "label": "Nasıl Yapılırlar"
+            }
+          }
+        }
+      }
+    },
+    "developers": {
+      "label": "Geliştiriciler",
+      "groups": {
+        "developersOverview": {
+          "label": "Genel Bakış"
+        },
+        "apps": {
+          "label": "Uygulamalar"
+        },
+        "api": {
+          "label": "API"
+        },
+        "selfHost": {
+          "label": "Kendi Kendine Barındırma"
+        },
+        "contribute": {
+          "label": "Katkıda Bulunun"
+        }
+      }
+    }
+  }
+}

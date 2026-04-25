@@ -1,0 +1,172 @@
+{
+  "tabs": {
+    "gettingStarted": {
+      "label": "Primeiros passos",
+      "groups": {
+        "welcome": {
+          "label": "Welcome"
+        },
+        "coreConcepts": {
+          "label": "Core Concepts"
+        }
+      }
+    },
+    "userGuide": {
+      "label": "User Guide",
+      "groups": {
+        "userGuideOverview": {
+          "label": "Visão Geral"
+        },
+        "dataModel": {
+          "label": "Modelo de dados",
+          "groups": {
+            "dataModelReference": {
+              "label": "Reference"
+            },
+            "dataModelHowTos": {
+              "label": "How-Tos"
+            }
+          }
+        },
+        "dataMigration": {
+          "label": "Data Migration",
+          "groups": {
+            "dataMigrationReference": {
+              "label": "Reference"
+            },
+            "dataMigrationHowTos": {
+              "label": "How-Tos"
+            }
+          }
+        },
+        "calendarEmails": {
+          "label": "Calendar & Emails",
+          "groups": {
+            "calendarEmailsReference": {
+              "label": "Reference"
+            },
+            "calendarEmailsHowTos": {
+              "label": "How-Tos"
+            }
+          }
+        },
+        "workflows": {
+          "label": "Fluxos de trabalho",
+          "groups": {
+            "workflowsReference": {
+              "label": "Reference"
+            },
+            "workflowsHowTos": {
+              "label": "How-Tos",
+              "groups": {
+                "crmAutomations": {
+                  "label": "CRM Automations"
+                },
+                "connectToOtherTools": {
+                  "label": "Connect to Other Tools"
+                },
+                "advancedConfigurations": {
+                  "label": "Advanced Configurations"
+                },
+                "needMoreHelp": {
+                  "label": "Precisa de mais ajuda"
+                }
+              }
+            }
+          }
+        },
+        "ai": {
+          "label": "IA",
+          "groups": {
+            "aiReference": {
+              "label": "Reference"
+            },
+            "aiHowTos": {
+              "label": "How-Tos"
+            }
+          }
+        },
+        "layout": {
+          "label": "Layout",
+          "groups": {
+            "layoutReference": {
+              "label": "Reference",
+              "groups": {
+                "layoutViews": {
+                  "label": "Visualizações"
+                }
+              }
+            },
+            "layoutHowTos": {
+              "label": "How-Tos"
+            }
+          }
+        },
+        "dashboards": {
+          "label": "Painéis",
+          "groups": {
+            "dashboardsReference": {
+              "label": "Reference"
+            },
+            "dashboardsHowTos": {
+              "label": "How-Tos"
+            }
+          }
+        },
+        "permissionsAccess": {
+          "label": "Permissions & Access",
+          "groups": {
+            "permissionsAccessReference": {
+              "label": "Reference"
+            },
+            "permissionsAccessHowTos": {
+              "label": "How-Tos"
+            }
+          }
+        },
+        "billing": {
+          "label": "Faturação",
+          "groups": {
+            "billingReference": {
+              "label": "Reference"
+            },
+            "billingHowTos": {
+              "label": "How-Tos"
+            }
+          }
+        },
+        "settings": {
+          "label": "Configurações",
+          "groups": {
+            "settingsReference": {
+              "label": "Reference"
+            },
+            "settingsHowTos": {
+              "label": "How-Tos"
+            }
+          }
+        }
+      }
+    },
+    "developers": {
+      "label": "Programadores",
+      "groups": {
+        "developersOverview": {
+          "label": "Visão Geral"
+        },
+        "apps": {
+          "label": "Aplicativos"
+        },
+        "api": {
+          "label": "API"
+        },
+        "selfHost": {
+          "label": "Self-Host"
+        },
+        "contribute": {
+          "label": "Contribute"
+        }
+      }
+    }
+  }
+}

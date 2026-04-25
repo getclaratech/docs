@@ -1,0 +1,172 @@
+{
+  "tabs": {
+    "gettingStarted": {
+      "label": "Začínáme",
+      "groups": {
+        "welcome": {
+          "label": "Welcome"
+        },
+        "coreConcepts": {
+          "label": "Core Concepts"
+        }
+      }
+    },
+    "userGuide": {
+      "label": "Uživatelská příručka",
+      "groups": {
+        "userGuideOverview": {
+          "label": "Přehled"
+        },
+        "dataModel": {
+          "label": "Datový model",
+          "groups": {
+            "dataModelReference": {
+              "label": "Reference"
+            },
+            "dataModelHowTos": {
+              "label": "Návody"
+            }
+          }
+        },
+        "dataMigration": {
+          "label": "Migrace dat",
+          "groups": {
+            "dataMigrationReference": {
+              "label": "Reference"
+            },
+            "dataMigrationHowTos": {
+              "label": "Návody"
+            }
+          }
+        },
+        "calendarEmails": {
+          "label": "Kalendář a e-maily",
+          "groups": {
+            "calendarEmailsReference": {
+              "label": "Reference"
+            },
+            "calendarEmailsHowTos": {
+              "label": "Návody"
+            }
+          }
+        },
+        "workflows": {
+          "label": "Pracovní postupy",
+          "groups": {
+            "workflowsReference": {
+              "label": "Reference"
+            },
+            "workflowsHowTos": {
+              "label": "Návody",
+              "groups": {
+                "crmAutomations": {
+                  "label": "Automatizace CRM"
+                },
+                "connectToOtherTools": {
+                  "label": "Propojení s dalšími nástroji"
+                },
+                "advancedConfigurations": {
+                  "label": "Pokročilá nastavení"
+                },
+                "needMoreHelp": {
+                  "label": "Potřebujete další pomoc"
+                }
+              }
+            }
+          }
+        },
+        "ai": {
+          "label": "AI",
+          "groups": {
+            "aiReference": {
+              "label": "Reference"
+            },
+            "aiHowTos": {
+              "label": "Návody"
+            }
+          }
+        },
+        "layout": {
+          "label": "Rozvržení",
+          "groups": {
+            "layoutReference": {
+              "label": "Reference",
+              "groups": {
+                "layoutViews": {
+                  "label": "Zobrazení"
+                }
+              }
+            },
+            "layoutHowTos": {
+              "label": "Návody"
+            }
+          }
+        },
+        "dashboards": {
+          "label": "Panely",
+          "groups": {
+            "dashboardsReference": {
+              "label": "Reference"
+            },
+            "dashboardsHowTos": {
+              "label": "Návody"
+            }
+          }
+        },
+        "permissionsAccess": {
+          "label": "Oprávnění a přístup",
+          "groups": {
+            "permissionsAccessReference": {
+              "label": "Reference"
+            },
+            "permissionsAccessHowTos": {
+              "label": "Návody"
+            }
+          }
+        },
+        "billing": {
+          "label": "Fakturace",
+          "groups": {
+            "billingReference": {
+              "label": "Reference"
+            },
+            "billingHowTos": {
+              "label": "Návody"
+            }
+          }
+        },
+        "settings": {
+          "label": "Nastavení",
+          "groups": {
+            "settingsReference": {
+              "label": "Reference"
+            },
+            "settingsHowTos": {
+              "label": "Návody"
+            }
+          }
+        }
+      }
+    },
+    "developers": {
+      "label": "Vývojáři",
+      "groups": {
+        "developersOverview": {
+          "label": "Přehled"
+        },
+        "apps": {
+          "label": "Aplikace"
+        },
+        "api": {
+          "label": "API"
+        },
+        "selfHost": {
+          "label": "Vlastní hosting"
+        },
+        "contribute": {
+          "label": "Přispět"
+        }
+      }
+    }
+  }
+}
